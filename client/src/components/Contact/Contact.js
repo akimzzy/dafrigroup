@@ -17,7 +17,7 @@ const Contact = () => {
         e.preventDefault()
         const data = { name, email, subject, message }
 
-        axios.post("http://localhost:7070/contact/message", { ...data })
+        axios.post("https://dafrigroupsendmail.herokuapp.com/contact/message", { ...data })
             .then(data => {
                 console.log(data)
                 setSent(true)
