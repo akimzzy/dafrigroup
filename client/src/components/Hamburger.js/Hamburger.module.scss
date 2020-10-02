@@ -1,0 +1,22 @@
+.hamburger {
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    z-index: 50000;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+
+    img {
+        width: 3rem;
+        filter: drop-shadow(2px 2px 4px rgba(0,0,0, .4));
+    }
+    @media only screen and (max-width: 1000px) {
+        opacity: 1;
+        pointer-events: all;
+    }
+    @media only screen and (max-width: 500px) {
+        top: 4rem;
+        right: 2rem;
+    }
+}

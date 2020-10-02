@@ -1,0 +1,196 @@
+// fonts
+$bold_font : "GTBold";
+$medium_font : "GTMedium";
+$regular_font : "GTRegular";
+
+// padding 
+$sec_pad : 10rem;
+$sec_padMid : 5rem; 
+$sec_padSmall : 4rem 2rem; 
+
+
+
+// colors
+$white_col : #FFFFFF;
+$grey_col : #707070;
+$prim_col : #931837;
+$sec_col : #284B6C;
+
+
+.contact {
+    background-image: url(../../assets/contactBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60rem;
+    color: $white_col;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+
+    @media only screen and (max-width: 1000px){
+        min-height: 50rem;
+    }
+
+    &::before {
+        z-index: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0,0,0,.5));
+        pointer-events: none;
+    }
+
+    div {
+        z-index: 1000;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        img {
+            width: 10rem;
+        }
+    }
+
+}
+
+.section {
+    padding: $sec_pad; 
+
+    @media only screen and (max-width: 1000px){
+        padding: $sec_padMid; 
+    };
+      
+    @media only screen and (max-width: 500px){
+        padding: $sec_padSmall; 
+    };
+}
+
+.box {
+
+    h2 {
+        margin-bottom: 4rem;
+    }
+
+    form {
+        & > div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+
+            @media only screen and (max-width: 700px){
+                gap: 2rem;
+            };
+
+
+            & > div {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    padding: 1.5rem 1rem;
+                    background-color: rgb(211, 211, 211);
+                    outline: none;
+                    border: none;
+
+                    @media only screen and (max-width: 700px){
+                        padding: 1rem;
+                    };
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                label {
+                    margin-bottom: 1rem;
+                    font-size: 1.5rem;
+
+                    @media only screen and (max-width: 700px){
+                        font-size: 1.2rem;
+                    };
+                }
+                
+            }
+
+            & > div:nth-of-type(1), & > div:nth-of-type(2) {
+
+                @media only screen and (max-width: 700px){
+                    grid-column: 1 / -1;
+                };
+            }
+            & > div:nth-of-type(3) {
+                grid-column: 1 / -1;
+            }
+            & > div:nth-of-type(4) {
+                grid-column: 1 / -1;
+
+
+                textarea {
+                    height: 20rem;
+                    padding: 1.5rem 1rem;
+                    background-color: rgb(211, 211, 211);
+                    outline: none;
+                    border: none;
+
+                    @media only screen and (max-width: 700px){
+                        padding: 1rem;
+                        height: 15rem;
+                    };
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+            & > div:nth-of-type(5) {
+                grid-column: 1 / -1;
+                margin-bottom: 3rem;
+                display: inline-block;
+
+                label {
+                    margin-left: 1rem;
+                    font-size: 1rem;
+                }
+
+                input {
+                    position: relative;
+                    border: none;
+                    outline: none;
+                    height: 1.6rem;
+                    width: 1.6rem;
+                    padding: 0;
+
+                    &:checked::before{
+                        z-index: -1;
+                    }
+
+                    &::before {
+                        content: "";
+                        height: 1.7rem;
+                        width: 1.7rem;
+                        background-color: rgb(211, 211, 211) ;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+
+        button {
+            justify-self: start;
+            display: inline-block;
+        }
+    }
+}

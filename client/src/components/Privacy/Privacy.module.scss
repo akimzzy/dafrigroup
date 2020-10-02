@@ -1,0 +1,96 @@
+// fonts
+$bold_font : "GTBold";
+$medium_font : "GTMedium";
+$regular_font : "GTRegular";
+
+// padding 
+$sec_pad : 10rem;
+$sec_padMid : 5rem; 
+$sec_padSmall : 4rem 2rem; 
+ 
+// colors
+$white_col : #FFFFFF;
+$grey_col : #707070;
+$prim_col : #931837;
+$sec_col : #284B6C;
+
+
+.leadershipHead {
+    background-image: url(../../assets/privacyBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60rem;
+    color: $white_col;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+
+    @media only screen and (max-width: 1000px){
+        min-height: 50rem;
+    }
+
+    &::before {
+        z-index: 0;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0,0,0,.5));
+        pointer-events: none;
+    }
+
+    div {
+        z-index: 1000;
+        text-align: center;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        img {
+            width: 10rem;
+        }
+    }
+}
+
+.section {
+    padding: $sec_pad; 
+
+    @media only screen and (max-width: 1000px){
+        padding: $sec_padMid; 
+    };
+
+    @media only screen and (max-width: 500px){
+        padding: $sec_padSmall; 
+    };
+}
+
+.privacy {
+    h3 {
+        color: $grey_col;
+        font-size: 1.4rem;
+        margin-bottom: .5rem;
+    }
+
+    p {
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        margin-bottom: 2rem;
+        line-height: 2rem;
+        list-style-type: disc;
+
+        li {
+            color: $grey_col;
+            font-size: 1.3rem;
+            margin-bottom: .5rem;
+        }
+    }
+}

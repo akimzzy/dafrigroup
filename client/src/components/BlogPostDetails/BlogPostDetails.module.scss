@@ -1,0 +1,23 @@
+// fonts
+$bold_font : "GTBold";
+$medium_font : "GTMedium";
+$regular_font : "GTRegular";
+
+// padding 
+$sec_pad : 10rem;
+$sec_padMid : 5rem; 
+$sec_padSmall : 4rem 2rem; 
+
+
+
+// colors
+$white_col : #FFFFFF;
+$grey_col : #707070;
+$prim_col : #931837;
+$sec_col : #284B6C;
+
+
+p {
+    font-size: 1.3rem;
+    color: $grey_col;
+}

@@ -1,0 +1,96 @@
+// fonts
+$bold_font : "GTBold";
+$medium_font : "GTMedium";
+$regular_font : "GTRegular";
+
+// padding 
+$sec_pad : 5rem 10rem;
+$sec_padMid : 5rem; 
+$sec_padSmall : 4rem 2rem; 
+// colors
+$white_col : #FFFFFF;
+$grey_col : #707070;
+$prim_col : #931837;
+$sec_col : #284B6C;
+
+nav {
+    z-index: 3000;
+    padding: $sec_pad;
+    padding-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+    color: $white_col;
+
+    @media only screen and (max-width: 1000px){
+        padding: $sec_padMid; 
+    }
+    @media only screen and (max-width: 500px){
+        padding: $sec_padSmall; 
+    }
+    
+
+    img {
+        height: 2rem;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-self: end;
+
+        a {
+            text-decoration: none;
+            color: $white_col;
+            width: 100%;
+            display: inline-block;
+
+            @media only screen and (max-width: 1000px) {
+                padding: 1rem 0;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+    
+        li {
+            margin: 1rem 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 200;
+        }
+    
+        @media only screen and (max-width: 1000px) {
+            position: fixed;
+            flex-direction: column;
+            right: 0;
+            background-color: rgba($prim_col, .95);
+            background-image: url(../../assets/navBG.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            backdrop-filter: blur(3px);
+            color: $white_col;
+            top: 0;
+            padding: 5rem;
+            padding-top: 10rem;
+            height: 100%;
+            width: 100%;
+
+            transform: translateY(-3rem);
+            opacity: 0;
+            pointer-events: none;
+            transition: all .3s ease;
+            
+        }
+    }
+}
+
+.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}

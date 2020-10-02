@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+  <g id="Group_72" data-name="Group 72" transform="translate(-2460 -7498)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="32.5" cy="32.5" r="32.5" transform="translate(2470 7508)" fill="#931837"/>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(2460 7498)" fill="none" stroke="#931837" stroke-width="2">
+      <circle cx="42.5" cy="42.5" r="42.5" stroke="none"/>
+      <circle cx="42.5" cy="42.5" r="41.5" fill="none"/>
+    </g>
+    <g id="black" transform="translate(2473.947 7511.846)">
+      <g id="linkedin" transform="translate(16.053 16.154)">
+        <path id="Path_101" data-name="Path 101" d="M5.3,24.042V7.583H.21v16.46Zm0-22.294A2.5,2.5,0,0,0,2.69-.846,2.51,2.51,0,0,0,.053,1.748,2.5,2.5,0,0,0,2.629,4.343h.03A2.511,2.511,0,0,0,5.3,1.748Zm8.3,22.294V14.664a3.815,3.815,0,0,1,.184-1.362,3.055,3.055,0,0,1,2.864-2.042c2.02,0,3.287,1.146,3.287,3.4v9.378h5.122V14.413c0-5.158-2.753-7.558-6.426-7.558A5.559,5.559,0,0,0,13.56,9.685l.037-2.2H8.484c.074,1.576,0,16.559,0,16.559Z" transform="translate(-0.053 0.846)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
