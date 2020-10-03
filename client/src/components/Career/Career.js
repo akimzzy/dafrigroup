@@ -81,7 +81,6 @@ const Home = () => {
             company: "DafriExchange Ltd"
         }
     ]
-    console.log(careerData.length)
 
     return (<section>
         <MetaDecorator title="DafriGroup PLC - Career" description="Join us as we take banking away from the big monopolies. Your country is not a barrier. We are borderless, We are digital, we are multinational!!" />

@@ -33,7 +33,7 @@ const About = () => {
                         </div>
                     </div>
                     <p>
-                        Ziggy Xolane Ndhlovu is the Chairman of the Board of DafriGroup PLC. He is responsible for leading the Board and focusing it on strategic matters, overseeing the Group’s business and setting high governance standards. He plays a pivotal role in fostering the effectiveness of the Board and individual Directors, both inside and outside the board room.
+                        Xolane Ndhlovu is the Chairman of the Board of DafriGroup PLC. He is responsible for leading the Board and focusing it on strategic matters, overseeing the Group’s business and setting high governance standards. He plays a pivotal role in fostering the effectiveness of the Board and individual Directors, both inside and outside the board room.
                             <br /><br />
                             Prior to that he was the Chief Executive Officer of UMEH Group Ltd — overseeing a portfolio of over 16+ companies that employs nearly 200 people. Under his leadership UMEH enjoyed a rapid growth including establishing and acquiring brands such as UMEH Media, Daily Afrika, WIF Global, Royal IVY South Africa, OMAHA Hotels, UMEH Motors and Star Magazine Africa among others.
                         </p>
