@@ -14,16 +14,16 @@ const Blog = ({ match }) => {
     const filter = data.filter((x) => x.id === match.params.id)
 
     const details = () => {
-        if (match.params.id === "DafriGroup Plc Announced Its Digital Banking Ambition; DafriBank, A sustainable platform for all digital problems.") {
+        if (match.params.id === "1") {
          // eslint-disable-next-line 
            return <BlogPostDetails_1 />
-        } else if (match.params.id === "DafriBank Limited Appoints a New Chief Executive Officer") {
+        } else if (match.params.id === "2") {
         // eslint-disable-next-line 
          return <BlogPostDetails_2 />
-        } else if (match.params.id === "UMEH Group Donates R500000.00 to COVID- 19 Solidarity Response Fund") {
+        } else if (match.params.id === "3") {
         // eslint-disable-next-line 
          return <BlogPostDetails_3 />
-        } else if (match.params.id === "DAFRIBANK DONATES N100 MILLION TO EDUCATIONAL INITIATIVE IN NIGERIA") {
+        } else if (match.params.id === "4") {
           // eslint-disable-next-line 
             return <BlogPostDetails_4 />
         }
