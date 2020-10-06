@@ -1,24 +1,18 @@
 // fonts
-$bold_font : "GTBold";
-$medium_font : "GTMedium";
-$regular_font : "GTRegular";
+$bold_font: "GTBold";
+$medium_font: "GTMedium";
+$regular_font: "GTRegular";
 
-// padding 
-$sec_pad : 10rem;
-$sec_padMid : 5rem; 
-$sec_padSmall : 4rem 2rem; 
-
-
+// padding
+$sec_pad: 10rem;
+$sec_padMid: 5rem;
+$sec_padSmall: 4rem 2rem;
 
 // colors
-$white_col : #FFFFFF;
-$grey_col : #707070;
-$prim_col : #931837;
-$sec_col : #284B6C;
-
-
-
-
+$white_col: #ffffff;
+$grey_col: #707070;
+$prim_col: #931837;
+$sec_col: #284b6c;
 
 .cookie {
   z-index: 10000000;
@@ -31,10 +25,14 @@ $sec_col : #284B6C;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(183, 209, 209, .95);
+  background-color: rgba(183, 209, 209, 0.95);
   flex-wrap: wrap;
-  
-  transition: all .3s ease;
+  transition: all 0.3s ease;
+
+  @media only screen and (max-width: 700px) {
+    padding: 2rem 1rem;
+    padding-bottom: 4rem;
+  }
 
   span {
     padding: 1rem;
@@ -42,15 +40,16 @@ $sec_col : #284B6C;
     margin-right: 2rem;
     line-height: 2rem;
     width: 80%;
+    
 
     a {
-        color: $prim_col;
-        font-style: italic;
-        border-bottom: 1px solid $prim_col;
+      color: $prim_col;
+      font-style: italic;
+      border-bottom: 1px solid $prim_col;
     }
   }
 
   button {
-      margin-top: 1rem;
+    margin-top: 1rem;
   }
 }
