@@ -116,7 +116,7 @@ const Home = () => {
                     We aren't your typical employer. We won't lock you into golden handcuffs or push complex terms. We won't ruin your life with months of unnecessary due diligence. We won't grind you on terms.
                     <br /><br />
                     Supplementary Requirements:<br />
-                    A curriculum vitae alone is not suffice, we need a note detailing how you intend to make things happen at the helm of DafriGroup. This latter must be written by you. General employment motivational latter you can find on the internet is not allowed. We want to feel your passion through your own latter.
+                    A curriculum vitae alone is not suffice, we need a note detailing how you intend to make things happen at the helm of DafriGroup. This letter must be written by you. General employment motivational letter you can find on the internet is not allowed. We want to feel your passion through your own letter.
                     <br /><br />
                     A Dream Car: <br />
                     We'll buy you a freaking car, of varying degrees of absurdity

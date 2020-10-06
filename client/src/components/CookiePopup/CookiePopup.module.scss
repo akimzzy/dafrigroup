@@ -1,0 +1,56 @@
+// fonts
+$bold_font : "GTBold";
+$medium_font : "GTMedium";
+$regular_font : "GTRegular";
+
+// padding 
+$sec_pad : 10rem;
+$sec_padMid : 5rem; 
+$sec_padSmall : 4rem 2rem; 
+
+
+
+// colors
+$white_col : #FFFFFF;
+$grey_col : #707070;
+$prim_col : #931837;
+$sec_col : #284B6C;
+
+
+
+
+
+.cookie {
+  z-index: 10000000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(183, 209, 209, .95);
+  flex-wrap: wrap;
+  
+  transition: all .3s ease;
+
+  span {
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+    width: 80%;
+
+    a {
+        color: $prim_col;
+        font-style: italic;
+        border-bottom: 1px solid $prim_col;
+    }
+  }
+
+  button {
+      margin-top: 1rem;
+  }
+}

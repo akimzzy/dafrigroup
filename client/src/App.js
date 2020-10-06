@@ -20,6 +20,7 @@ import Leadership from './components/Leadership/Leadership';
 import Privacy from './components/Privacy/Privacy';
 import ScrollToTop from './components/ScrollToTop';
 import PageNotFound from './components/404/404';
+import CookiePopup from './components/CookiePopup/CookiePopup';
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -54,6 +55,7 @@ function App() {
         </Switch>
 
         <Footer />
+        <CookiePopup />
       </div>
     </Router>
   );
