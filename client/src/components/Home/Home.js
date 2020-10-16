@@ -117,7 +117,7 @@ const Home = () => {
                     </Link>
                     <Link to="/leadership" >
                         <li>
-                            <div><img src={require("../../assets/leadership-image2.jpeg")} alt="chairman" /></div>
+                            <div><img src={require("../../assets/leadership-image2.png")} alt="chairman" /></div>
                             <div>
                                 <h4>Ramaswamy Easwaran</h4>
                                 <span>Chief Executive Officer  - DafriBank Limited  </span>

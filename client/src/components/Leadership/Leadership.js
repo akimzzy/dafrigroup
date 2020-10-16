@@ -62,7 +62,7 @@ const About = () => {
                     <div className={styles.moreAbout}>
                         <div>
                             <div>
-                                <img src={require('../../assets/leadership-image2.jpeg')} alt="" />
+                                <img src={require('../../assets/leadership-image2.png')} alt="" />
                             </div>
                             <div>
                                 <h3>Ramaswamy Easwaran</h3>

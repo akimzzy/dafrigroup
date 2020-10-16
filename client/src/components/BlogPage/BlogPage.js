@@ -8,6 +8,7 @@ import BlogPostDetails_2 from '../BlogPostDetails/BlogPostDeails_2';
 import { Link } from 'react-router-dom';
 import BlogPostDetails_4 from '../BlogPostDetails/BlogPostDeails_4';
 import MetaDecorator from '../MetaDecorator';
+import BlogPostDetails_5 from '../BlogPostDetails/BlogPostDeails_5';
 
 const Blog = ({ match }) => {
 
@@ -26,6 +27,9 @@ const Blog = ({ match }) => {
         } else if (match.params.id === "4") {
           // eslint-disable-next-line 
             return <BlogPostDetails_4 />
+        } else if (match.params.id === "5") {
+          // eslint-disable-next-line 
+            return <BlogPostDetails_5 />
         }
     }
 

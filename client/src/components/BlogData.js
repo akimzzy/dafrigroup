@@ -34,6 +34,13 @@ const data = [
         description: 'The DafriGroup PLC through its daughter company DafriBank Limited has pledged a N100 million commitment to the Fund Kids Like Success Educational Initiative in the federal republic of Nigeria.',
         src: images[3]
     },
+    {
+        id: "5",
+        title: "DafriBank Appoints Harvard Alumnus as Non-Executive Director",
+        date: "November 01, 2020",
+        description: 'DafriBank PLC is pleased to announce the appointment of Dr. Edward Obasi in the role of Non-Executive Director with effect from 1st November 2020.',
+        src: images[4]
+    },
 
 
 ]

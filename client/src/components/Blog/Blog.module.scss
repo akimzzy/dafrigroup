@@ -97,7 +97,7 @@ $sec_col : #284B6C;
             color: $grey_col;
             font-family: $regular_font;
             margin-bottom: 5rem;
-
+            
             @media only screen and (max-width: 700px) {
                 min-height: 20rem;
                 grid-template-columns: 1fr;
@@ -121,7 +121,7 @@ $sec_col : #284B6C;
                 
                 img {
                     width: 100%;
-                    transform: scale(1.2);
+                    // transform: scale(1.2);
 
                     @media only screen and (max-width: 1000px) {
                         width: 100%;
