@@ -36,8 +36,9 @@ const data = [
     },
     {
         id: "5",
+        name: "Dr. Edward Obasi",
         title: "DafriBank Appoints Harvard Alumnus as Non-Executive Director",
-        date: "November 01, 2020",
+        date: "OCTOBER 13, 2020",
         description: 'DafriBank PLC is pleased to announce the appointment of Dr. Edward Obasi in the role of Non-Executive Director with effect from 1st November 2020.',
         src: images[4]
     },

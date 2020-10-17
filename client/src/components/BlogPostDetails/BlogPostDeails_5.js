@@ -14,7 +14,7 @@ const BlogPostDetails_5 = () => {
         <br/><br/>
         Commenting on the appointment, Mr. Xolane Ndhlovu, Chairman of DafriGroup PLC: “I am beyond thrilled to welcome Dr Obasi to the DafriGroup family. His global experience in driving significant business growth, his knowledge of the banking industry and his management expertise will be invaluable as we continue to strengthen and grow DafriBank”.
         <br/><br/>
-        Commenting on his appointment, Obasi said: “I am extremely honoured to be joining DafriBank at such a digital, rapidly evolving and exciting time in the world. I am deeply passionate about the banking industry and fully aware of how modern digital solutions are streamlining operations in this industry. I look forward to contributing my perspective and experience towards actual isi Ng DafriGroup PLC overall corporate goals.
+        Commenting on his appointment, Obasi said: “I am extremely honoured to be joining DafriBank at such a digital, rapidly evolving and exciting time in the world. I am deeply passionate about the banking industry and fully aware of how modern digital solutions are streamlining operations in this industry. I look forward to contributing my perspective and experience towards actualizing DafriGroup PLC overall corporate goals.
         <br/><br/>
         <b>About DafriBank</b>
         <br/>

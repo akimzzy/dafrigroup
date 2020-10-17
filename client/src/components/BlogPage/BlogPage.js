@@ -45,7 +45,10 @@ const Blog = ({ match }) => {
 
         <div className={styles.section}>
             <div >
-                <img className={styles.detailsImage} src={filter[0].src} alt={filter[0].title}></img>
+                <div style={{textAlign: 'center'}}>
+                    <img style={filter[0].name ? {marginBottom: '0'} : {}} className={styles.detailsImage} src={filter[0].src} alt={filter[0].title}></img>
+                    {filter[0].name ? <div style={{marginBottom: '1rem', transform: 'translateY(-10px)'}}>{filter[0].name}</div> : ""}
+                </div>
                 <div className={styles.BlogPage}>
                     {details()}
                 </div>
