@@ -6,7 +6,7 @@ import MetaDecorator from '../MetaDecorator';
 
 const Home = () => {
 
-    const topThreeBlog = [data[data.length - 1], data[data.length - 2], data[data.length - 3]]
+    const topThreeBlog = [data[0], data[1], data[2]]
 
     return (<section>
         <MetaDecorator title="DafriGroup PLC - Digitalising Africa" description="DafriGroup PLC invest in sectors that provide strong long-term returns and have the ability to move Africa’s Economy forward. Technology, finance,  hospitality, real estate, blockchain, media, aviation" />
