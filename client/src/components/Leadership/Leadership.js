@@ -101,7 +101,7 @@ const About = () => {
                             </div>
                             <div>
                                 <h3>Catherine Anajemba</h3>
-                                <span>DBA Network - Chief Marketing Officer</span>
+                                <span>Managing Director at DafriGroup PLC</span>
                             </div>
                         </div>
                     </div>

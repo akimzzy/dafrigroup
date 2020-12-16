@@ -10,6 +10,7 @@ import BlogPostDetails_4 from '../BlogPostDetails/BlogPostDeails_4';
 import MetaDecorator from '../MetaDecorator';
 import BlogPostDetails_5 from '../BlogPostDetails/BlogPostDeails_5';
 import BlogPostDetails_6 from '../BlogPostDetails/BlogPostDeails_6';
+import BlogPostDetails_7 from '../BlogPostDetails/BlogPostDeails_7';
 
 const Blog = ({ match }) => {
 
@@ -35,6 +36,10 @@ const Blog = ({ match }) => {
         else if (match.params.id === "6") {
           // eslint-disable-next-line 
             return <BlogPostDetails_6 />
+        }
+        else if (match.params.id === "7") {
+          // eslint-disable-next-line 
+            return <BlogPostDetails_7 />
         }
     }
 
