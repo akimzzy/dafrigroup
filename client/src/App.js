@@ -17,6 +17,10 @@ import Contact from './components/Contact/Contact';
 import Strategy from './components/Strategy/Strategy';
 import Career from './components/Career/Career';
 import Leadership from './components/Leadership/Leadership';
+import Catherine from './components/Leadership/Catherine';
+import Ramaswamy from './components/Leadership/Ramaswamy';
+import Obasi from './components/Leadership/Obasi';
+import Xolane from './components/Leadership/Xolane';
 import Privacy from './components/Privacy/Privacy';
 import ScrollToTop from './components/ScrollToTop';
 import PageNotFound from './components/404/404';
@@ -49,7 +53,11 @@ function App() {
           <Route path='/strategy' component={Strategy} />
           <Route path='/career' component={Career} />
           <Route path='/partners' component={Strategy} />
-          <Route path='/leadership' component={Leadership} />
+          <Route exact path='/leadership' component={Leadership} />
+          <Route path='/leadership/catherine' component={Catherine} />
+          <Route path='/leadership/ramaswamy' component={Ramaswamy} />
+          <Route path='/leadership/obasi' component={Obasi} />
+          <Route path='/leadership/xolane' component={Xolane} />
           <Route path='/privacy' component={Privacy} />
           <Route component={PageNotFound} />
         </Switch>

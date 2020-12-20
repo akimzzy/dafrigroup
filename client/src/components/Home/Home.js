@@ -105,7 +105,7 @@ const Home = () => {
                 </p>
 
                 <ul>
-                    <Link to="/leadership" >
+                    <Link to="/leadership/xolane" >
                         <li>
                             <div><img src={require("../../assets/leadership-image1.jpeg")} alt="chairman" /></div>
                             <div>
@@ -115,7 +115,7 @@ const Home = () => {
                         </li>
 
                     </Link>
-                    <Link to="/leadership" >
+                    <Link to="/leadership/ramaswamy" >
                         <li>
                             <div><img src={require("../../assets/leadership-image2.png")} alt="chairman" /></div>
                             <div>
@@ -124,11 +124,20 @@ const Home = () => {
                             </div>
                         </li>
                     </Link>
-                    <Link to="/leadership" >
+                    <Link to="/leadership/catherine" >
                         <li>
                             <div><img src={require("../../assets/leadership-image3.jpeg")} alt="chairman" /></div>
                             <div>
                                 <h4>Catherine Anajemba</h4>
+                                <span>DBA Network - Chief Marketing Officer</span>
+                            </div>
+                        </li>
+                    </Link>
+                    <Link to="/leadership/obasi" >
+                        <li>
+                            <div><img className="obasi" src={require("../../assets/leadership-image4.png")} alt="obasi" /></div>
+                            <div>
+                                <h4>Dr. Edward Obasi</h4>
                                 <span>DBA Network - Chief Marketing Officer</span>
                             </div>
                         </li>
