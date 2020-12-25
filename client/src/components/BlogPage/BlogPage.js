@@ -11,6 +11,8 @@ import MetaDecorator from '../MetaDecorator';
 import BlogPostDetails_5 from '../BlogPostDetails/BlogPostDeails_5';
 import BlogPostDetails_6 from '../BlogPostDetails/BlogPostDeails_6';
 import BlogPostDetails_7 from '../BlogPostDetails/BlogPostDeails_7';
+import BlogPostDetails_8 from '../BlogPostDetails/BlogPostDeails_8';
+import BlogPostDetails_9 from '../BlogPostDetails/BlogPostDeails_9';
 
 const Blog = ({ match }) => {
 
@@ -40,6 +42,14 @@ const Blog = ({ match }) => {
         else if (match.params.id === "7") {
           // eslint-disable-next-line 
             return <BlogPostDetails_7 />
+        }
+        else if (match.params.id === "8") {
+          // eslint-disable-next-line 
+            return <BlogPostDetails_8 />
+        }
+        else if (match.params.id === "9") {
+          // eslint-disable-next-line 
+            return <BlogPostDetails_9 />
         }
     }
 

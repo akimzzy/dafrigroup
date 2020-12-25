@@ -7,6 +7,20 @@ const images = importAll(require.context('../blogImage', false, /\.(png|jpe?g|sv
 
 const data = [
     {
+        id: "9",
+        title: "DafriGroup Acquires OMAHA Hotels",
+        date: "DECEMBER 23, 2020",
+        description: "DafiGroup PLC is pleased to announce that it has reached a definitive agreement with the UMEH group and has acquired OMAHA Hotels, a leading chain of luxury hotels.",
+        src: images[8]
+    },
+    {
+        id: "8",
+        title: "DafriGroup PLC Appoints Chief Compliance Director.",
+        date: "DECEMBER 21, 2020",
+        description: "We are pleased to introduce our new Compliance Director Inge Laubscher who will assume this role effective immediately. She will serve across all DafriGroup's subsidiaries",
+        src: images[7]
+    },
+    {
         id: "7",
         // name: "DafriGroup PLC Injects $5 Million Seed Funding in DafriBank®",
         title: "DafriGroup Plc To Introduce Payment Agent Across Its Digital Daughter Brands.",
@@ -14,7 +28,6 @@ const data = [
         description: 'We are pleased to announce the introduction of Payment Agent (PA) feature across our platforms -- opening doors for digital economic opportunity for milllions of unbanked Africans…',
         src: images[6]
     },
-    
     {
         id: "6",
         // name: "DafriGroup PLC Injects $5 Million Seed Funding in DafriBank®",

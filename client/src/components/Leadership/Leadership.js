@@ -78,15 +78,12 @@ const About = () => {
                     </div>
 
                     <div className={styles.moreAbout}>
-
                         <p>
-                            Dubbed the multiple streams of income queen”. The current Africa's richest forex woman Catherine Anajemba is the brainchild behind Digital Bank of Africa (DBA ) concept which was brought to reality by DafriGroup's $5 million startup investment. Anajemba got together with her digital business associates to look for solution on how to tackle the issue of international remittances faced by digital entrepreneurs like herself as well as digital businesses.
+                            Catherine Buhle Anajemba is the current managing director of DafriGroup and the brains behind the Digital Bank of Africa (DBA) project, an efficient payment solution concept that was inspired by the growing dissatisfaction of African digital entrepreneurs who have continued to face unfair restrictions by international money transfer services.
                             <br /><br />
-                            Born in the dusty street of Emnambithi, Uthukela, KwaZulu Natal, South Africa she was a determined young lady who wanted to break the chain of poverty in her family. Her brilliance led to her graduating with diploma in media from Boston City campus. She relocated to the big city but detrimentality of job hunting faced by thousands of graduates pushed her into joining the social media trend of airtime solicitation scheme in quest to support her family back home.
+                            Formerly as Chief Marketing Officer,  Catherine was instrumental in securing $5 million startup capital for DafriBank. She was also responsible for overseeing the planning, development, and execution of DafriGroup's marketing, and advertising initiatives. Her unparalleled work ethic,  competence, and innovative-thinking soon earned her a well-deserved promotion.
                             <br/><br/><Link to='/leadership/catherine'>Read more...</Link>
-                            
                         </p>
-
                         <div>
                             <div>
                                 <img src={require('../../assets/leadership-image3.jpeg')} alt="" />
@@ -97,6 +94,37 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    
+                    <div className={styles.moreAbout}>
+                        <div>
+                            <div>
+                                <img src={require('../../assets/leadership-image4.png')} alt="" />
+                            </div>
+                            <div>
+                                <h3>Dr. Edward Obasi</h3>
+                                <span>Managing Executive  - DafriGroup PLC </span>
+                            </div>
+                        </div>
+                        <p>
+                        Dr. Edward Obasi joined DafriGroup PLC in October 2020 as Non-Executive Director. Dr. Obasi is responsible for providing independent oversight and counsel to the DafriGroup Chairman and the other management team. His task includes advising on the best use of financial resources, scrutinizing executive and business performance, and upholding the values of the company amongst other core responsibilities. <br/><br/>Dr. Obasi has over 20 years of professional experience in various companies and industries. Before joining DafriGroup PLC, he was a Senior Financial Analyst at Diamond Foods Inc. in California USA. Prior to this, Dr. Obasi worked in several financial roles in Canada, United States of America and Nigeria.<br/><br/><Link to='/leadership/obasi'>Read more...</Link>
+                        </p>
+                    </div>
+                    
+                    <div className={styles.moreAbout}>
+                        <p>
+                        Inge Laubscher is DafriGroup's Chief Compliance Officer (CCO). She collaborates with other senior management to drive the continued growth and success of DafriGroup and its many subsidiaries. As Chief Compliance Officer, Inge's specific responsibilities includes operational compliance, risk assessment, and implementation of policies to ensure the company has a strong regulatory framework ensuring that it is aware of and take steps to comply with relevant laws, policies, and regulations as DafriGroup remains committed to the highest standards of legal and ethical integrity. <br/><br/><Link to='/leadership/inge'>Read more...</Link>
+                        </p>
+                        <div>
+                            <div>
+                                <img src={require('../../assets/leadership-image5.jpg')} alt="" />
+                            </div>
+                            <div>
+                                <h3>Inge Laubscher</h3>
+                                <span>Chief Compliance Director  - DafriGroup PLC </span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

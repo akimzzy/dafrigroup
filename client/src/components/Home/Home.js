@@ -135,10 +135,19 @@ const Home = () => {
                     </Link>
                     <Link to="/leadership/obasi" >
                         <li>
-                            <div><img className="obasi" src={require("../../assets/leadership-image4.png")} alt="obasi" /></div>
+                            <div><img className="" src={require("../../assets/leadership-image4.png")} alt="obasi" /></div>
                             <div>
                                 <h4>Dr. Edward Obasi</h4>
-                                <span>DBA Network - Chief Marketing Officer</span>
+                                <span>Managing Executive - DafriGroup PLC</span>
+                            </div>
+                        </li>
+                    </Link>
+                    <Link to="/leadership/inge" >
+                        <li>
+                            <div><img className="inge" src={require("../../assets/leadership-image5.jpg")} alt="inge" /></div>
+                            <div>
+                                <h4>Inge Laubscher</h4>
+                                <span>Chief Compliance Director - DafriGroup PLC</span>
                             </div>
                         </li>
                     </Link>

@@ -25,6 +25,7 @@ import Privacy from './components/Privacy/Privacy';
 import ScrollToTop from './components/ScrollToTop';
 import PageNotFound from './components/404/404';
 import CookiePopup from './components/CookiePopup/CookiePopup';
+import Inge from './components/Leadership/Inge';
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -58,6 +59,7 @@ function App() {
           <Route path='/leadership/ramaswamy' component={Ramaswamy} />
           <Route path='/leadership/obasi' component={Obasi} />
           <Route path='/leadership/xolane' component={Xolane} />
+          <Route path='/leadership/inge' component={Inge} />
           <Route path='/privacy' component={Privacy} />
           <Route component={PageNotFound} />
         </Switch>
