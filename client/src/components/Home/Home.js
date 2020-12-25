@@ -129,7 +129,7 @@ const Home = () => {
                             <div><img src={require("../../assets/leadership-image3.jpeg")} alt="chairman" /></div>
                             <div>
                                 <h4>Catherine Anajemba</h4>
-                                <span>DBA Network - Chief Marketing Officer</span>
+                                <span>Managing Director at DafriGroup PLC</span>
                             </div>
                         </li>
                     </Link>
