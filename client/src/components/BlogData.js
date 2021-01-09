@@ -3,9 +3,17 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('../blogImage', false, /\.(png|jpe?g|svg)$/));
+console.log(images)
 
 
 const data = [
+    {
+        id: "10",
+        title: "DafriBank’s Unique Debit Card: A Lifetime Access To A Better Lifestyle",
+        date: "JANUARY 7, 2020",
+        description: "DafriBank’s unique debit card will enrich your lifestyle by assisting you at every step of your payment journey. This ultra-modern card comes in multiple variants depending on the type of DafriBank account you operate, with each chock-full of unique features and advantages that are tailored to meet your every need.",
+        src: images[9]
+    },
     {
         id: "9",
         title: "DafriGroup Acquires OMAHA Hotels",
