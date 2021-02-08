@@ -21,7 +21,7 @@ const Catherine = () => {
                         </div>
                         <div className='leaderProfile__text'>
                             <h3>Catherine Anajemba</h3>
-                            <span>Managing Director at DafriGroup PLC</span>
+                            <span>Managing Director - DafriGroup PLC</span>
                         </div>
                     </div>
 

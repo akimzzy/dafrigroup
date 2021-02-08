@@ -8,6 +8,13 @@ console.log(images)
 
 const data = [
     {
+        id: "11",
+        title: "CBN, Regulating Crypto Not Ban Is The Best Deterrence To Crypto Misuse",
+        date: "FEBRUARY 8, 2021",
+        description: "The last few days have seen the CBN's letter prohibiting financial institutions from facilitating payments for cryptocurrency exchanges receive wild reactions from the general public. The content of the letter itself isn't new and meant only to reiterate the Apex bank's position on cryptocurrency exchange and related activities expressed as far back as 2017. ",
+        src: images[10]
+    },
+    {
         id: "10",
         title: "DafriBank’s Unique Debit Card: A Lifetime Access To A Better Lifestyle",
         date: "JANUARY 7, 2021",
