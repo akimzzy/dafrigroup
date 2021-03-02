@@ -22,3 +22,10 @@ p {
     color: $grey_col;
     line-height: 2rem;
 }
+
+.tinyContent {
+    p {
+        margin-bottom: 2rem;
+        display:block;
+    }
+}

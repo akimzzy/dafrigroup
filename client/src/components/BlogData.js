@@ -8,6 +8,13 @@ console.log(images)
 
 const data = [
     {
+        id: "12",
+        title: "The Digital Bank of Africa, DBA Currency Historic Initial Sale Begins",
+        date: "MARCH 2, 2021",
+        description: "The DafriBank is pleased to announce to the general public the start of its much anticipated token sales on native exchange DafriXchange.",
+        src: images[11]
+    },
+    {
         id: "11",
         title: "CBN, Regulating Crypto Not Ban Is The Best Deterrence To Crypto Misuse",
         date: "FEBRUARY 8, 2021",
