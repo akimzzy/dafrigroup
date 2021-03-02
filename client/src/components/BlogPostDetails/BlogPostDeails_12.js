@@ -70,9 +70,10 @@ const BlogPostDetails_11 = () => {
         Here
       </p>
       <p>
-      Contact us<br/>
-E: press@dafrigroup.com Tel: 0115685053 <br/>
-Fax: 0865609785
+        Contact us
+        <br />
+        E: press@dafrigroup.com Tel: 0115685053 <br />
+        Fax: 0865609785
       </p>
     </div>
   );
