@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./BlogPostDetails.module.scss";
 
-const BlogPostDetails_11 = () => {
+const BlogPostDetails_12 = () => {
   return (
     <div className={style.tinyContent}>
       <p>
@@ -85,4 +85,4 @@ const BlogPostDetails_11 = () => {
   );
 };
 
-export default BlogPostDetails_11;
+export default BlogPostDetails_12;

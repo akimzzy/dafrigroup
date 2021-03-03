@@ -16,6 +16,7 @@ import BlogPostDetails_9 from '../BlogPostDetails/BlogPostDeails_9';
 import BlogPostDetails_10 from '../BlogPostDetails/BlogPostDeails_10';
 import BlogPostDetails_11 from '../BlogPostDetails/BlogPostDeails_11';
 import BlogPostDetails_12 from '../BlogPostDetails/BlogPostDeails_12';
+import BlogPostDetails_13 from '../BlogPostDetails/BlogPostDeails_13';
 
 const Blog = ({ match }) => {
 
@@ -65,6 +66,10 @@ const Blog = ({ match }) => {
         else if (match.params.id === "12") {
           // eslint-disable-next-line 
             return <BlogPostDetails_12 />
+        }
+        else if (match.params.id === "13") {
+          // eslint-disable-next-line 
+            return <BlogPostDetails_13 />
         }
     }
 
