@@ -66,8 +66,14 @@ const BlogPostDetails_11 = () => {
         esteemed leadership of billionaire entrepreneur, Xolane Ndhlovu
       </p>
       <p>
-        For more information about the DBA Currency sales and how to buy click
-        Here
+        For more information about the DBA Currency sales and how to buy{" "}
+        <a
+          href="https://t.me/DBATalk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          click here
+        </a>
       </p>
       <p>
         Contact us
