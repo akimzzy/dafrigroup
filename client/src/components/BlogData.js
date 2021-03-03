@@ -9,7 +9,7 @@ console.log(images)
 const data = [
     {
         id: "13",
-        title: "Digital Asset and Its Value Proposition",
+        title: "Digital Assets and Its Value Proposition",
         date: "MARCH 3, 2021",
         description: "No doubt that digital assets, crypto- blockchain are some of the biggest inventions of a century. A brand with a long term vision to stay afloat should either begin to draw a framework that will pave a way for future integration of such innovation or lose the race to competitors.",
         src: images[12]
