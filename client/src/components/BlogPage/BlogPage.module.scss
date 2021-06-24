@@ -1,134 +1,148 @@
 // fonts
-$bold_font : "GTBold";
-$medium_font : "GTMedium";
-$regular_font : "GTRegular";
+$bold_font: "GTBold";
+$medium_font: "GTMedium";
+$regular_font: "GTRegular";
 
-// padding 
-$sec_pad : 10rem;
-$sec_padMid : 5rem; 
-$sec_padSmall : 4rem 2rem; 
-
-
+// padding
+$sec_pad: 10rem;
+$sec_padMid: 5rem;
+$sec_padSmall: 4rem 2rem;
 
 // colors
-$white_col : #FFFFFF;
-$grey_col : #707070;
-$prim_col : #931837;
-$sec_col : #284B6C;
+$white_col: #ffffff;
+$grey_col: #707070;
+$prim_col: #931837;
+$sec_col: #284b6c;
 
+.BlogPage {
+  img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
 
 .BlogPageHead {
-    background-image: url(../../assets/BlogPostBG.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 40rem;
-    color: $white_col;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;
-    position: relative;
-    background-position: center;
+  background-image: url(../../assets/BlogPostBG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+  color: $white_col;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+  background-position: center;
 
-    @media only screen and (max-width: 1000px){
-        // min-height: 50rem;
+  @media only screen and (max-width: 1000px) {
+    // min-height: 50rem;
+  }
+
+  &::before {
+    z-index: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    pointer-events: none;
+  }
+
+  div {
+    z-index: 1000;
+    text-align: left;
+    margin: 2rem;
+
+    h2 {
+      margin-bottom: 1rem;
+      width: 70%;
+
+      @media only screen and (max-width: 1000px) {
+        width: 90%;
+      }
     }
 
-    &::before {
-        z-index: 0;
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-        pointer-events: none;
+    img {
+      width: 10rem;
     }
-
-    div {
-        z-index: 1000;
-        text-align: left;
-        margin: 2rem;
-
-        h2 {
-            margin-bottom: 1rem;
-            width: 70%;
-
-            @media only screen and (max-width: 1000px){
-                width: 90%;
-            }
-        }
-
-        img {
-            width: 10rem;
-        }
-    }
-
+  }
 }
 
 .section {
-    padding: $sec_pad; 
-    display: flex;
-    padding-top: 0;
+  padding: $sec_pad;
+  display: flex;
+  padding-top: 0;
 
-    & > div {
-        padding-top: 4rem;
-    }
+  & > div {
+    padding-top: 4rem;
+    // width: 80%;
+  }
 
-    @media only screen and (max-width: 1000px){
-        padding: $sec_padMid; 
-        flex-direction: column;
-        
-    };
+  @media only screen and (max-width: 1000px) {
+    padding: $sec_padMid;
+    flex-direction: column;
+  }
 
-    @media only screen and (max-width: 500px){
-        padding: $sec_padSmall; 
-    };
-      
+  @media only screen and (max-width: 500px) {
+    padding: $sec_padSmall;
+  }
 }
 
 .BlogPageHead {
-
-   div {
-       width: 70%;
-   }
-
+  div {
+    width: 70%;
+  }
 }
 
 .detailsImage {
-    height: 20rem;
-    margin-bottom: 2rem;
+  height: 20rem;
+  margin-bottom: 2rem;
 
-    @media only screen and (max-width: 800px){
-        width: 100%;
-        height: auto;
-    }
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .otherPost {
-    margin-left: 2rem;
-    
-    h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+  margin-left: 2rem;
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    a {
+      text-decoration: none;
+      margin-bottom: 1rem;
+      display: inline-block;
+      color: $prim_col;
+
+      &:hover {
+        opacity: 0.5;
+      }
     }
 
-    ul {
-        a {
-            text-decoration: none;
-            margin-bottom: 1rem;
-            display: inline-block;
-            color: $prim_col;
+    li {
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  }
+}
 
-            &:hover {
-                opacity: .5;
-            }
-        }
 
-        li {
-            font-size: 1.5rem;
-            padding: 1rem;
-        }
+p {
+    font-size: 1.3rem;
+    color: $grey_col;
+    line-height: 2rem;
+}
+
+.tinyContent {
+    p {
+        margin-bottom: 2rem;
+        display:block;
     }
 }
