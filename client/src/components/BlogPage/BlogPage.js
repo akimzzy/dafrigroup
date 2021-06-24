@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BlogPage.module.scss";
+import { Helmet } from "react-helmet";
 
 // import { data } from "../BlogData";
 // import BlogPostDetails_1 from "../BlogPostDetails/BlogPostDeails_1";
@@ -7,7 +8,7 @@ import styles from "./BlogPage.module.scss";
 // import BlogPostDetails_2 from "../BlogPostDetails/BlogPostDeails_2";
 import { Link } from "react-router-dom";
 // import BlogPostDetails_4 from "../BlogPostDetails/BlogPostDeails_4";
-import MetaDecorator from "../MetaDecorator";
+// import MetaDecorator from "../MetaDecorator";
 // import BlogPostDetails_5 from "../BlogPostDetails/BlogPostDeails_5";
 // import BlogPostDetails_6 from "../BlogPostDetails/BlogPostDeails_6";
 // import BlogPostDetails_7 from "../BlogPostDetails/BlogPostDeails_7";
@@ -80,11 +81,18 @@ const Blog = ({ match }) => {
 
   return (
     <section>
-      <MetaDecorator
+      {/* <MetaDecorator
         title={`DafriGroup PLC - Blog: ${postData?.title}`}
         excerpt={postData?.excerpt}
         image={postData?.mainImage.asset.url}
-      />
+      /> */}
+
+      <Helmet>
+        <meta name="title" content={postData?.title} />
+        <meta name="description" content={postData?.excerpt} />
+        <meta property="og:image" content={postData?.mainImage.asset.url} />
+        <title>{postData?.title}</title>
+      </Helmet>
 
       <header className={styles.BlogPageHead}>
         <div>
